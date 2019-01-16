@@ -1,0 +1,14 @@
+group 'wireMockExample'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.github.tomakehurst', name: 'wiremock', version: '2.18.0'
+}
